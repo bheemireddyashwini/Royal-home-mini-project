@@ -1,0 +1,50 @@
+// @import "base";
+// You need the base only when you are not using bootstrap. In that case, go to _base.scss
+// to customize it as you may want.
+
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "find-a-home";
+@import "meet-our-team";
+@import "work-with-us";
+@import "discover-deals-section1";
+@import "discover-deals-section2";
+@import "designer";
+@import "footer";
+@import "question";    
+@import "header";
+@import "section-form";
+@import "navigation";
+@import "find-Properties";
+@import "featured Categories";
+
+
+// Write your sass code here or import partials
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top{
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: #9e841c;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    background-color: #655206;
+    color: #f7f7f7;
+  }
+
+ 
+}
